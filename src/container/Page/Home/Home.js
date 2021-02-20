@@ -18,11 +18,11 @@ class Home extends Component {
                                         <p>Share Learn And Implement</p>
                                         <Link to="About" className="btn btn-common">Read More</Link>
                                     </div>
-                                    <img src="images/home/slider/hill.png" className="slider-hill" alt="slider image"/>
-                                    <img src="images/home/slider/house.png" className="slider-house" alt="slider image"/>
-                                    <img src="images/home/slider/sun.png" className="slider-sun" alt="slider image"/>
-                                    <img src="images/home/slider/birds1.png" className="slider-birds1" alt="slider image"/>
-                                    <img src="images/home/slider/birds2.png" className="slider-birds2" alt="slider image"/>
+                                    <img src="images/home/slider/hill.png" className="slider-hill" alt=""/>
+                                <img src="images/home/slider/house.png" className="slider-house" alt=""/>
+                                <img src="images/home/slider/sun.png" className="slider-sun" alt=""/>
+                                <img src="images/home/slider/birds1.png" className="slider-birds1" alt=""/>
+                                <img src="images/home/slider/birds2.png" className="slider-birds2" alt=""/>
                                 </div>
                             </div>
                         </div>

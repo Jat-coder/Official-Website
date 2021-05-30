@@ -1,11 +1,4 @@
-/*
-  Theme Name: Triangle
-  Theme Uri: http://www.themeum.com
-  Author: Themeum
-  Author Uri: http://www.themeum.com
-  Description: Creative Site Template
-  Version: 1.1
-  */
+
 
   @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700);
   @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
@@ -232,7 +225,7 @@
   color:#2AA7DC;
 }
 
-.social-icons ul li a:hover .fa-google-plus {
+.social-icons ul li a:hover .fa-google-plus,.fa-instagram:hover,.fa-youtube:hover {
   color:#A22523;
 }
 
@@ -279,6 +272,9 @@
   padding: 20px;
   text-transform: uppercase;
   font-weight: 300;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #00aeef;
 }
 
 
@@ -540,6 +536,7 @@ ul.sub-menu {
   padding-top: 35px;
   height: 0;
   overflow: hidden;
+  width: 100%
 }
 
 
@@ -557,18 +554,20 @@ ul.sub-menu {
 #home-slider {
   background: url(../images/home/slider-bg.png) 0 100% repeat-x;
   position: relative;
+  
 }
 
 #home-slider .main-slider {
   position: relative;
   height: 450px;
+  width: 100%;
 }
 
 #home-slider .slide-text{
   position: absolute;
   top: 50px;
   left: 0;
-  width: 450px;
+/*  width: 450px; */
 }
 
 .animate-in .slide-text {
@@ -580,6 +579,7 @@ ul.sub-menu {
   position: absolute;
   right: 0;
   bottom: 0;
+  
 }
 
 .animate-in .slider-hill {
@@ -791,7 +791,7 @@ ul.sub-menu {
 }
 
 .single-team img{
-  width: 100%;
+  width:min-content; 
 }
 
 .single-team{
@@ -822,6 +822,9 @@ ul.sub-menu {
   font-weight: 700;
   color: #333;
   margin-top: 0;
+}
+.team-social{
+  margin-bottom: 10px;
 }
 .single-team .team-social{
   margin-top: 15px;
@@ -2772,4 +2775,160 @@ span.stButton_gradient,
   -webkit-box-shadow: 0 0 0 5px rgba(0,0,0,.1) inset;
   border-radius: 100%;
   margin: 10px 0;
+}
+#AboutUsFirstImg{
+  width:600px
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,900,700,600,500,300,200,100,800);
+
+.team h2 {
+    color: #4C4C4C;
+    word-spacing: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom:30px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.ion-minus {
+    padding: 0px 10px;
+}
+
+.team {
+    font-family: 'Raleway', sans-serif;
+	background-color: #f6f6f6;
+	padding: 60px 0px;
+}
+
+.team h4 {
+    margin-top: 20px;
+    color: #5db4c0;
+}
+
+.team .fa {
+    color: #5db4c0;
+    font-size: 18px;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* team*/
+.navbar-team {
+  list-style: none;
+  margin-top: 20px;
+}
+.navbar-team li{
+  display:inline-block;
+  margin-left: 70px;
+}
+  .filter-trigger {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-bottom: 5px;
+    transition: all 0.5s;
+    position: relative;
+  }
+    
+    .navbar-team li:after {
+      content: '';
+      display: block;
+      width: 100%;
+      height: 3px;
+      background-color: purple;
+      opacity: 0;
+      transition: all 0.3s;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      
+    }
+    
+    .navbar-team li.active:after {
+      
+        opacity: 1;
+      
+    }
+    
+    .navbar-team li:hover {
+      cursor: pointer;
+    }
+      
+      
+  
+
+.user-wrapper {
+  margin-top: 50px;}
+  .user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s;}
+    
+    .hide {
+      opacity: 0;
+      top: 0;
+      left: 0;
+      transform: scale(0);
+      position: absolute;
+    }
+    
+    .circle {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      transition: all 0.3s;
+    }
+    
+    .developer .circle {
+        background-color: cyan;
+      
+    }
+    .developer .circle .prateek{
+      background-color: cyan;
+      
+    
+  }
+    
+    .designer .circle{
+       
+        background-color: magenta;
+      
+    }
+    
+    .consultant .circle{
+       
+        background-color: gold;
+      
+    }
+    .graphics .circle{
+      background-color: gold;
+    }
+    
+    .management .circle{
+       
+        background-color: black;
+      
+    }
+   .anjaliImage{
+      background-image: url("images/aboutus/prateek.jpg");
+    }
+    .retrictImage {
+      width: 250px;
+      border-radius: 50%;
+      transition: all 0.3s;
+      background-repeat: no-repeat;
+      margin:0 auto;
+      background-position: center;
+    }
+    .teamicon{
+      padding-left: 10px;
+      
+    }
+.navbar-nav
+{
+  margin-top: 30px;
 }

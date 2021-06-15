@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 
-const Footer = (props) => {
+const Footer_Events = (props) => {
     function sendEmail(e) {
         e.preventDefault();
     
@@ -29,7 +29,7 @@ const Footer = (props) => {
                                 <a href="#"><img src="images/home/profile1.jpg"  alt="" /></a>
                             </div>
                             <div className="media-body">
-                                <blockquote>If you do build a great experience, customers tell each other about that. Word of mouth is very powerful.</blockquote>
+                                <blockquote>A brand for a company is like a reputation for a person. You earn reputation by trying to do hard things well.</blockquote>
                                 <h3><a href="#">- Jeff Bezos</a></h3>
                             </div>
                          </div>
@@ -38,7 +38,7 @@ const Footer = (props) => {
                                 <a href="#"><img src="images/home/profile2.jpg" alt="" /></a>
                             </div>
                             <div className="media-body">
-                                <blockquote>Relentless Innovation</blockquote>
+                                <blockquote></blockquote>
                                 <h3><a href="">- Andy Jassy</a></h3>
                             </div>
                         </div>   
@@ -92,4 +92,4 @@ const Footer = (props) => {
         )
     }
     
-    export default Footer;
+    export default Footer_Events;
